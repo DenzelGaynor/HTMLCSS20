@@ -1,0 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html. body {
+	height: 100%;
+}
+
+body {
+	background-color: #f4f1f1;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	float: right;
+	background-color: #FFF;
+	border: 1px solid lightblue;
+}
+
+.clr {
+	clear: both;
+}
+
+#main-nav {
+	float: left;
+	width: 15%;
+	text-align: center;
+	margin-left: 2.5%;
+	padding-top: 10px;
+	padding: 0.2em;
+	border: 1px solid lightblue;
+	
+
+}
+
+#main-nav img {
+	margin-bottom: 20px;
+}
+
+#main-nav li {
+	list-style: none;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	letter-spacing: 0.2em;
+}
+
+#main-nav a {
+	text-decoration: none;
+	color: blue;
+	font-size: 16px;
+}
+
+#main-nav a:hover {
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+#main-nav ul {
+	margin-bottom: 100%;
+}
+
+#main-header {
+	padding-top: 10px;
+}
+
+#main-header img {
+	float: left;
+	height: 110.69px;
+	width: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#main-header h1 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-shadow: 2px 3px 5px grey;
+	font-size: 2em;
+	font-family: Times New Roman;
+}
+
+#main-header p {
+	margin-bottom: 11px;
+	max-width: 98%;
+}
+
+#footer-contain {
+	width: 80%;
+	margin: auto;
+	float: right;
+}
+
+#main-section {
+	margin-left: 20px;
+	width: 55%;
+	float: left;
+}
+
+#main-section p {
+	margin-bottom: 40px;
+}
+
+#side-image {
+	float: right;
+	width: 40%;
+}
+
+#side-image img {
+	width: 400px;
+}
+
+#side-image p {
+	text-align: 
+}
+
+#side-image li {
+	list-style: none;
+
+}
+
+#side-image a {
+	text-decoration: none;
+	color:black;
+}
+
+#side-image ul {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#side-image span {
+	margin-left: 10px;
+}
+
+#main-footer {
+	margin-top: 20px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+#main-footer ul {
+	margin-top: 20px;
+	text-align: left;
+}
+
+#footer-nav a {
+	text-decoration: none;
+
+}
+
+#footer-nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to left, #ccc, #333, #ccc);
+	margin:20px 0;
+}
+
+@media only screen and (max-width: 1245px) {
+
+	#side-image {
+		float: none;
+		margin-left: 20px;
+	}
+
+	#main-section {
+		width: 90%;
+
+	}
+
+
+}

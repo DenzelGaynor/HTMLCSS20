@@ -1,0 +1,62 @@
+/*CENTERS ELEMENTS */
+
+.container {
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*Media quiries make it so that when we get to specific window widths the text will change 
+and tell us where we are in terms of width while also changing the background color. */
+
+@media (min-width: 300px) {
+	body {
+		background-color: black;
+		color: white;
+	}
+	.hello:after {
+
+		 content: "300px";
+		 	display: block;
+	}
+}
+
+@media (min-width: 500px) {
+	body {
+		background-color: green;
+		color: white;
+	}
+	.hello:after {
+
+		 content: "500px";
+		 	display: block;
+	}
+}
+
+@media (min-width: 700px) {
+	body {
+		background-color: blue;
+		color: white;
+	}
+	.hello:after {
+
+		 content: "700px";
+		 	display: block;
+	}
+}
+
+@media (min-width: 900px) {
+	body {
+		background-color: white;
+		color: black;
+	}
+	.hello:after {
+
+		 content: "900px";
+		 	display: block;
+	}
+}
