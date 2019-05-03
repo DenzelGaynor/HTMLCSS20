@@ -1,0 +1,15 @@
+/* TAKE AWAY ALL DEFAULT MARGIN AND PADDING */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.clr {
+	clear: both;
+}
